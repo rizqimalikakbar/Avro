@@ -10,8 +10,6 @@ Buatlah avro producer dan avro consumer seperti contoh pada code yang telah dish
    `pip install confluent-kafka`
    
 ## How to Run
-1. Activate Docker and start running `docker-compose.yml` with command
-   `docker-compose build`
-   `docker-compose up`
+1. Activate Docker and start running `docker-compose.yml` with command `docker-compose up`
 2. Running Producer with command `python3 roducer.py`
 3. Running Consumer with command `python3 consumer.py`
