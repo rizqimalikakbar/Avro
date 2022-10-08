@@ -1,26 +1,26 @@
 {
-  "namespace": "com.datatalksclub.taxi",
+  "namespace": "com.datatalksclub.bitcoin",
   "type": "record",
-  "name": "TaxiRide",
+  "name": "BitcoinPrice",
   "fields": [
     {
-      "name": "vendorId",
-      "type": "int"
+      "name": "Date",
+      "type": "string"
     },
     {
-      "name": "passenger_count",
-      "type": "int"
-    },
-    {
-      "name": "trip_distance",
+      "name": "Open",
       "type": "float"
     },
     {
-      "name": "payment_type",
-      "type": "int"
+      "name": "High",
+      "type": "float"
     },
     {
-      "name": "total_amount",
+      "name": "Low",
+      "type": "float"
+    },
+    {
+      "name": "Close",
       "type": "float"
     }
   ]
