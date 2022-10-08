@@ -1,11 +1,11 @@
 {
-  "namespace": "com.datatalksclub.taxi",
+  "namespace": "com.bitcoin.price",
   "type": "record",
-  "name": "TaxiRideKey",
+  "name": "BitcoinKey",
   "fields": [
     {
-      "name": "vendorId",
-      "type": "int"
+      "name": "Date",
+      "type": "string"
     }
   ]
 }
